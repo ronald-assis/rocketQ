@@ -1,5 +1,5 @@
 .content{
-    max-width: min(112rem, 80%);
+    max-width: min(112rem, 63%);
 }
 
 #room header {
@@ -92,4 +92,62 @@
     padding: .8rem 2.4rem;
     line-height: 2.4rem;
 
+}
+
+/***questions***/
+.questions-wrapper{
+    background: var(--light-blue);
+    margin-bottom: .8rem;
+    border-radius:0 .8rem .8rem .8rem;
+    padding: 2.4rem 
+}
+
+.questions-wrapper .question-content{
+    display:flex;
+    align-items: flex-start;
+}
+
+.questions-wrapper .question-content .user{
+    background: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
+}
+
+
+.questions-wrapper .question-content p{
+    margin-left: 1.6rem;
+    word-break: break-word;
+    display:flex;
+    align-items: center;
+    min-height: 5.2rem;
+}
+
+.questions-wrapper .action{
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.questions-wrapper .action > a{
+    display:flex;
+    align-items:center;
+}
+
+.questions-wrapper .action > a > img{
+    margin-right: .8rem;
+}
+
+.questions-wrapper .action > a + a{
+    margin-left: 2.4rem;
+}
+
+
+/*** Question Read***/
+.questions-wrapper.read{
+    background: var(--grey-medium);
+    border-radius: 0 .8rem .8rem .8rem;
+}
+
+.questions-wrapper.read .user{
+    background: var(--grey-blue);
 }

@@ -12,3 +12,10 @@ toda vez que fomos criar nosso site e bom sempre dar um reset no CSS --> *{}
 
 clamp(no menor padrã 14px, padrão 1.6rem, e o maior 2vw)
 
+    clip-path: circle(); cria um circulo com css
+
+    word-break: break-word; impede que uma palavra muito grande nãoa quebre o layout
+
+    align-items: flex-start; deixa sempre alinhado com o top
+
+
